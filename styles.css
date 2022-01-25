@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+    background: #FFFFFF;
+}
+
+h1 {
+    margin: 128px 277px 12px 23px;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.41px;
+}
+
+h2 {
+    margin: auto 16px 102px 23px;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+}
+
+input {
+    width: 343px;
+    height: 48px;
+    margin: 0 23px;
+    border: none;
+    background-color: #F2F2F7;
+    border-radius: 6px;
+
+
+}
+
+input::placeholder {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: -0.41px;
+    color: #929292;
+    padding-left: 14px;
+    display: block;
+
+}
+
+.personal-email {
+    margin-bottom: 12px;
+}
+
+.forgot-password {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    margin-top: 16px;
+    margin-right: 23px;
+    letter-spacing: -0.41px;
+    color: #007AFF;
+}
+
+button {
+    display: block;
+    margin: 20px 23px 217px 23px;
+    width: 343px;
+    height: 48px;
+    background-color: #0F0F0F;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.41px;
+}
+
+.signup {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.51);
+    margin: 0 75px 39px 75px;
+}
+
+strong {
+    font-family: 'Raleway', sans-serif;
+    color: #007AFF;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18.78px;
+}
